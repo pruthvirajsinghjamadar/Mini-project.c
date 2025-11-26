@@ -6,7 +6,7 @@ void main(){
 
     printf("what type of theme are you looking for  \n");
      
-    printf("Themes are : 1.psycology \n 2.comedy\n 3.power\n 4.action\n 5.mystery\n6.romance\n 7.goated\n 8.hentai\n 9.underrated\n &.story line :");
+    printf("Themes are : 1.psycology \n 2.comedy\n 3.power\n 4.action\n 5.mystery\n6.romance\n 7.goated\n 8.must\n 9.underrated\n &.story line :");
     scanf("%c",&theme);
 
     switch (theme)
@@ -264,11 +264,11 @@ void main(){
         break;
             
         case'8':
-        printf("OVERFLOW");
+        printf("COTE");
         printf("HAve you ever seen this before, if yes enter 1 if no enter 0 ");
         scanf("%d",&name);
         if(name==1){
-            printf("HIGH SCHOOL DXD");
+            printf("DEATHNOTE");
             printf("HAve you ever seen this before, if yes enter 1 if no enter 0 ");
             scanf("%d",&name);
                 if(name==1){
